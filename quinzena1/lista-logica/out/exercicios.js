@@ -92,7 +92,11 @@ function checaStringsMesmoTamanho() {
 
 // Exercício 9
 function checaIgualdadeDesconsiderandoCase() {
+<<<<<<< HEAD
   const primeiraPalavra = prompt("Digite uma palavra")
+=======
+   const primeiraPalavra = prompt("Digite uma palavra")
+>>>>>>> 8c5ecbe0bc32cc5de5f18a7a32066bdb55266043
   const segundaPalavra = prompt("Digite outra palavra")
   
   fraseIgual1 = primeiraPalavra.toLowerCase()
@@ -104,7 +108,7 @@ function checaIgualdadeDesconsiderandoCase() {
 
 // Exercício 10
 function checaRenovacaoRG() {
-  const anoAtual = prompt("Olá, digite o ano atual!")
+const anoAtual = prompt("Olá, digite o ano atual!")
   const anoNascimento = prompt("Digite agora o seu ano de nascimento.")
   const anoId = prompt("Digite aqui a data de expedição da sua Identidade.")
 
@@ -121,12 +125,17 @@ function checaRenovacaoRG() {
 
 // Exercício 11
 function checaAnoBissexto() {
+<<<<<<< HEAD
   const entradaAno = Number(prompt("Digite um ano para saber se é Bissexto!"))
+=======
+ const entradaAno = Number(prompt("Digite um ano para saber se é Bissexto!"))
+>>>>>>> 8c5ecbe0bc32cc5de5f18a7a32066bdb55266043
  
   anoBissexto = entradaAno % 400 === 0 === true || entradaAno % 4 === 0 === true && entradaAno % 100 === 0 === false 
   
   
   console.log(anoBissexto)
+<<<<<<< HEAD
   
 } 
 
@@ -134,6 +143,13 @@ function checaAnoBissexto() {
 // Exercício 12
 function checaValidadeInscricaoLabenu() {
  
+=======
+}
+
+// Exercício 12
+function checaValidadeInscricaoLabenu() {
+  
+>>>>>>> 8c5ecbe0bc32cc5de5f18a7a32066bdb55266043
   const idade = prompt("Voce é maior de 18 anos?")
   const ensinoMedio = prompt("Possui ensino médio completo?")
   const disponibilidade = prompt("Possui disponibilidade exclusiva durante os horários do curso?")
@@ -146,6 +162,7 @@ function checaValidadeInscricaoLabenu() {
   
   console.log(aprovado)
 }
+<<<<<<< HEAD
 
 
 
@@ -153,3 +170,6 @@ function checaValidadeInscricaoLabenu() {
 
 
 
+=======
+}
+>>>>>>> 8c5ecbe0bc32cc5de5f18a7a32066bdb55266043
