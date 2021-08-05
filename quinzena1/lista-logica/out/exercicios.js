@@ -51,7 +51,7 @@ const nome = prompt("Digite aqui o seu nome!")
 const idade = prompt("Digite a sua idade!")
 const email = prompt("Digite o seu email!")
 
-console.log("Meu nome é", (nome),", tenho",(idade), " anos, e o meu email é ", (email))
+console.log("Meu nome é", nome, "tenho", idade, "anos, e o meu email é", email)
 }
 
 // Exercício 5
@@ -60,7 +60,9 @@ const primeiraCor = prompt("Digite sua cor favorita.")
 const segundaCor = prompt("Digite sua segunda cor favorita.")
 const terceiraCor = prompt("Digite sua terceira cor favorita.")
 
-console.log(primeiraCor),", ", (segundaCor), ", ", (terceiraCor)
+arrayCores = [primeiraCor, segundaCor, terceiraCor]
+
+console.log(arrayCores)
 }
 
 // Exercício 6
@@ -90,7 +92,11 @@ function checaStringsMesmoTamanho() {
 
 // Exercício 9
 function checaIgualdadeDesconsiderandoCase() {
+<<<<<<< HEAD
+  const primeiraPalavra = prompt("Digite uma palavra")
+=======
    const primeiraPalavra = prompt("Digite uma palavra")
+>>>>>>> 8c5ecbe0bc32cc5de5f18a7a32066bdb55266043
   const segundaPalavra = prompt("Digite outra palavra")
   
   fraseIgual1 = primeiraPalavra.toLowerCase()
@@ -115,19 +121,35 @@ const anoAtual = prompt("Olá, digite o ano atual!")
   console.log(resultado1 || resultado2 || resultado3)
 }
 
+
+
 // Exercício 11
 function checaAnoBissexto() {
+<<<<<<< HEAD
+  const entradaAno = Number(prompt("Digite um ano para saber se é Bissexto!"))
+=======
  const entradaAno = Number(prompt("Digite um ano para saber se é Bissexto!"))
+>>>>>>> 8c5ecbe0bc32cc5de5f18a7a32066bdb55266043
  
   anoBissexto = entradaAno % 400 === 0 === true || entradaAno % 4 === 0 === true && entradaAno % 100 === 0 === false 
   
   
   console.log(anoBissexto)
+<<<<<<< HEAD
+  
+} 
+
+
+// Exercício 12
+function checaValidadeInscricaoLabenu() {
+ 
+=======
 }
 
 // Exercício 12
 function checaValidadeInscricaoLabenu() {
   
+>>>>>>> 8c5ecbe0bc32cc5de5f18a7a32066bdb55266043
   const idade = prompt("Voce é maior de 18 anos?")
   const ensinoMedio = prompt("Possui ensino médio completo?")
   const disponibilidade = prompt("Possui disponibilidade exclusiva durante os horários do curso?")
@@ -140,4 +162,14 @@ function checaValidadeInscricaoLabenu() {
   
   console.log(aprovado)
 }
+<<<<<<< HEAD
+
+
+
+
+
+
+
+=======
 }
+>>>>>>> 8c5ecbe0bc32cc5de5f18a7a32066bdb55266043
