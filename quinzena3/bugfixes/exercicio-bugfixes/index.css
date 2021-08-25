@@ -33,9 +33,6 @@ div>p:first-child {
     display: inline;
 }
 
-div img {
-
-}
 
 .botao-amarelo {
     background-color: #ffaf43;
@@ -139,7 +136,15 @@ td {
 text-align: center;
 }
 
-.container {
+.container-img {
 width: 65px;
 height: 100px;
+}
+
+td button:hover {
+    background-color: #c44f00;
+}
+
+td button:active {
+color: white;
 }
