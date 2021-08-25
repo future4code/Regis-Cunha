@@ -110,6 +110,7 @@ td button {
     height: 30px;
     border-radius: 5px;
     color: black;
+    margin: auto;
 }
 
 .container-do-search {
@@ -126,6 +127,7 @@ td button {
     border-radius: 5px;
     font-size: 10px;
     color: black;
+    margin: auto;
 }
 
 #back-button:hover {
@@ -155,4 +157,8 @@ color: white;
 
 li {
     font-family: 'Roboto', sans-serif;
+}
+
+div > table {
+    margin: auto;
 }
