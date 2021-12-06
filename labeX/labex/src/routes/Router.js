@@ -1,5 +1,5 @@
 import React from "react"
-import {BrowserRouter, Switch, Route} from "react-router-dom"
+import { Switch, Route } from "react-router-dom"
 import AdminHomePage from "../pages/AdminHomePage/AdminHomePage"
 import AplicationFormPage from "../pages/AplicationFormPage/AplicationFormPage"
 import CreateTripPage from "../pages/CreateTripPage/CreateTripPage"
@@ -10,9 +10,10 @@ import TripDetailsPage from '../pages/TripDetailsPage/TripDetailsPage'
 import ErrorPage from "../pages/ErrorPage/ErrorPage"
 
 
-const Router = () => {
+
+const Router = ({setRigthButtontText}) => {
     return(
-        <BrowserRouter>
+
         <Switch>
             <Route exact path="/admin-page">
                 <AdminHomePage/>
@@ -30,7 +31,7 @@ const Router = () => {
                 <ListTripsPage/>
             </Route>
             <Route exact path="/login">
-                <LoginPage/>
+                <LoginPage setRigthButtontText={setRigthButtontText}/>
             </Route>
             <Route exact path="/details/:id">
                 <TripDetailsPage/>
@@ -39,7 +40,6 @@ const Router = () => {
                 <ErrorPage/>
             </Route>
         </Switch>
-        </BrowserRouter>
     )
 }
 

@@ -1,9 +1,14 @@
 import React from "react"
+import useUnprotectedPage from "../../hooks/useUnprotectedPage"
+import LoginForm from "./LoginForm"
 
-const LoginPage = () => {
+
+const LoginPage = ({setRigthButtontText}) => {
+    useUnprotectedPage()
+    
     return(
         <div>
-            <h1>LoginPage</h1>
+            <LoginForm setRigthButtontText={setRigthButtontText}/>
         </div>
     )
 }
