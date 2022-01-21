@@ -16,7 +16,7 @@ function Header({ rightButtonText, setRigthButtontText }) {
             setRigthButtontText("Login");
             goToLoginPage(history);
         } else {
-            goToLoginPage(history);
+            goToLoginPage(history);//obs
         }
     };
 

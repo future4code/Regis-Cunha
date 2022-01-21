@@ -1,7 +1,6 @@
-import Toolbar from '@mui/material/Toolbar';
 import styled from "styled-components"
 
-export const styledToolbar = styled(Toolbar)`
+export const styledToolbar = styled.components`
 display: flex;
 flex-direction: row;
 justify-content: space-between;
